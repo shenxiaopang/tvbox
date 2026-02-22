@@ -1,0 +1,9 @@
+{
+  "class": [
+    { "type_name": "🔑 扫码登录 (点我出码)", "type_id": "peizhi" },
+    { "type_name": "🎒 小学一年级", "type_id": "小学一年级人教版" },
+    { "type_name": "📚 绘本启蒙", "type_id": "少儿英语绘本" },
+    { "type_name": "🧪 科学实验", "type_id": "幼儿科学实验" },
+    { "type_name": "🖨️ 3D打印教学", "type_id": "3D打印入门教程" }
+  ]
+}
