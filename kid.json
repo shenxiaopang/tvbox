@@ -1,0 +1,383 @@
+{
+  "spider": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847",
+  "logo": "https://avatars.githubusercontent.com/u/58679624?v=4",
+  "wallpaper": "https://深色壁纸.xxooo.cf/",
+  "sites": [
+    {
+      "key": "幼儿乐园",
+      "name": "🎈幼儿乐园┃3-6岁",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./biliext/幼儿乐园.json"
+    },
+    {
+      "key": "小学课堂",
+      "name": "📚小学课堂┃1-6年级",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./biliext/小学课堂.json"
+    },
+    {
+      "key": "少儿教育",
+      "name": "🎓少儿教育┃4-12岁",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./biliext/少儿教育.json"
+    },
+    {
+      "key": "童趣",
+      "name": "🎬童趣┃儿童视频",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./js/童趣.js"
+    },
+    {
+      "key": "兔小贝",
+      "name": "🐰兔小贝┃儿童故事",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./js/兔小贝.js"
+    },
+    {
+      "key": "NyaFun",
+      "name": "🎨动漫频道┃日本动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./js/NyaFun.js"
+    },
+    {
+      "key": "Bili儿童",
+      "name": "👶哔哩儿童┃B站官方",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./biliext/Bili.json"
+    },
+    {
+      "key": "AnFuns",
+      "name": "🌟动画天堂┃国创动画",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./js/AnFuns.js"
+    },
+    {
+      "key": "i275听书",
+      "name": "🎧听书阅读┃儿童故事",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "ext": "./js/i275听书.js"
+    },
+    {
+      "key": "广播迷FM",
+      "name": "📻儿歌FM┃儿童音乐",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./js/广播迷FM.js"
+    }
+  ],
+  "vod": {
+    "classes": [
+      {
+        "type_name": "儿童早教",
+        "type_id": "儿童早教"
+      },
+      {
+        "type_name": "儿童启蒙",
+        "type_id": "儿童启蒙故事"
+      },
+      {
+        "type_name": "儿童英语",
+        "type_id": "儿童英语启蒙"
+      },
+      {
+        "type_name": "儿童歌曲",
+        "type_id": "儿童歌曲"
+      },
+      {
+        "type_name": "儿童动画",
+        "type_id": "儿童动画"
+      },
+      {
+        "type_name": "儿童绘画",
+        "type_id": "儿童绘画"
+      },
+      {
+        "type_name": "睡前故事",
+        "type_id": "睡前故事"
+      },
+      {
+        "type_name": "儿童安全",
+        "type_id": "儿童安全教育"
+      },
+      {
+        "type_name": "贝瓦儿歌",
+        "type_id": "贝瓦儿歌"
+      },
+      {
+        "type_name": "悟空识字",
+        "type_id": "悟空识字"
+      },
+      {
+        "type_name": "宝宝巴士",
+        "type_id": "宝宝巴士"
+      },
+      {
+        "type_name": "儿歌多多",
+        "type_id": "儿歌多多"
+      },
+      {
+        "type_name": "学而思",
+        "type_id": "学而思"
+      },
+      {
+        "type_name": "一年级语文",
+        "type_id": "1年级语文"
+      },
+      {
+        "type_name": "一年级数学",
+        "type_id": "1年级数学"
+      },
+      {
+        "type_name": "一年级英语",
+        "type_id": "1年级英语"
+      },
+      {
+        "type_name": "二年级语文",
+        "type_id": "2年级语文"
+      },
+      {
+        "type_name": "二年级数学",
+        "type_id": "2年级数学"
+      },
+      {
+        "type_name": "二年级英语",
+        "type_id": "2年级英语"
+      },
+      {
+        "type_name": "3-6岁益智",
+        "type_id": "3-6岁益智动画合集"
+      },
+      {
+        "type_name": "CCTV少儿",
+        "type_id": "CCTV14少儿频道合集"
+      },
+      {
+        "type_name": "识字认字",
+        "type_id": "识字认字动画合集"
+      },
+      {
+        "type_name": "小学辅导",
+        "type_id": "小学六年辅导课程"
+      }
+    ]
+  },
+  "parses": [
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "虾米",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "imgo",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
+    },
+    {
+      "name": "PM",
+      "url": "https://www.playm3u8.cn/jiexi.php?url=",
+      "type": 0,
+      "ext": {
+        "flag": [
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "mgtv",
+          "芒果",
+          "sohu",
+          "xigua",
+          "fun",
+          "风行"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0"
+        }
+      },
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "m3u8",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "8090",
+      "url": "https://www.8090.la/8090/?url=",
+      "type": 0,
+      "ext": {
+        "flag": [
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "mgtv",
+          "芒果",
+          "sohu",
+          "xigua",
+          "fun",
+          "风行"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0"
+        }
+      },
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "看看",
+      "type": 0,
+      "url": "https://jx.m3u8.pw/?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "优酷",
+    "qq",
+    "腾讯",
+    "iqiyi",
+    "qiyi",
+    "奇艺",
+    "爱奇艺",
+    "m1905",
+    "xigua",
+    "letv",
+    "leshi",
+    "乐视",
+    "sohu",
+    "搜狐",
+    "tudou",
+    "mgtv",
+    "芒果",
+    "imgo",
+    "bilibili",
+    "哔哩",
+    "pptv",
+    "PPTV"
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "name": "kk",
+      "hosts": [
+        "kuaikan"
+      ],
+      "regex": [
+        "5",
+        "20.123",
+        "20.167",
+        "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-KEY:METHOD((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-DISCONTINUITY"
+      ]
+    }
+  ]
+}
