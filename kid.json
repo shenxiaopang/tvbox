@@ -10,10 +10,23 @@
     {"key": "少儿教育","name": "📚少儿┃教育","type": 3,"api": "csp_BiliGuard","style": {"type": "rect","ratio": 1.597},"searchable": 0,"quickSearch": 0,"changeable": 0,"ext": {"json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"}},
     {"key": "小学课堂","name": "📚小学┃课堂","type": 3,"api": "csp_BiliGuard","style": {"type": "rect","ratio": 1.597},"searchable": 0,"quickSearch": 0,"changeable": 0,"ext": {"json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"}},
     {"key": "初中课堂","name": "📚初中┃课堂","type": 3,"api": "csp_BiliGuard","style": {"type": "rect","ratio": 1.597},"searchable": 0,"quickSearch": 0,"changeable": 0,"ext": {"json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"}},
+    {"key": "咕咕","name": "🦉咕咕┃动漫","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxkeoroQVYOelMAvX1kuYptSLB36YxEjVawS9p37Cgo"},
+    {"key": "Dm84","name": "🚌巴士┃动漫","type": 3,"api": "csp_Dm84Guard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
+    {"key": "Anime1","name": "🐾日本┃动漫","type": 3,"api": "csp_Anime1Guard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
+    {"key": "YpanSo","name": "🐟盘她┃夸父","type": 3,"api": "csp_YpanSoGuard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "MDrive","name": "🗂我的云盘┃我配置","type": 3,"api": "csp_MyDriveGuard","changeable": 0,"indexs": 0,"searchable": 1,"style": {"type": "oval"},"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}}
   ],
   "parses": [
-    { "name": "聚合解析", "type": 3, "url": "Demo" },
-    { "name": "核心解析", "type": 0, "url": "https://jx.xmflv.com/?url=", "ext": { "flag": [ "qq", "腾讯", "qiyi", "爱奇艺", "youku", "优酷", "mgtv", "芒果" ] } }
+    {"name": "聚合解析", "type": 3, "url": "Demo"},
+    {"name": "虾米", "type": 0, "url": "https://jx.xmflv.com/?url=", "ext": {"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果", "imgo", "rx", "ltnb", "bilibili", "1905", "xigua"]}},
+    {"name": "PM", "url": "https://www.playm3u8.cn/jiexi.php?url=", "type": 0, "ext": {"flag": ["qiyi", "imgo", "爱奇艺", "奇艺", "qq", "腾讯", "youku", "优酷", "pptv", "PPTV", "letv", "乐视", "leshi", "bilibili", "哔哩哔哩", "哔哩", "mgtv", "芒果", "sohu", "xigua", "fun", "风行"], "header": {"User-Agent": "Mozilla/5.0"}}, "header": {"User-Agent": "Mozilla/5.0"}},
+    {"name": "m3u8", "type": 0, "url": "https://jx.m3u8.tv/jiexi/?url="},
+    {"name": "8090", "url": "https://www.8090.la/8090/?url=", "type": 0, "ext": {"flag": ["qiyi", "imgo", "爱奇艺", "奇艺", "qq", "腾讯", "youku", "优酷", "pptv", "PPTV", "letv", "乐视", "leshi", "bilibili", "哔哩哔哩", "哔哩", "mgtv", "芒果", "sohu", "xigua", "fun", "风行"], "header": {"User-Agent": "Mozilla/5.0"}}, "header": {"User-Agent": "Mozilla/5.0"}},
+    {"name": "看看", "type": 0, "url": "https://jx.m3u8.pw/?url="},
+    {"name": "咸鱼", "type": 0, "url": "https://jx.xyflv.cc/?url=", "ext": {"header": {"user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36", "referer": "https://www.xyflv.cc/"}}},
+    {"name": "云解析", "type": 0, "url": "https://jx.yparse.com/index.php?url=", "ext": {"header": {"user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
+    {"name": "爱豆", "type": 0, "url": "https://jx.aidouer.net/?url=", "ext": {"header": {"user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36", "referer": "https://jiejie.uk/"}}},
+    {"name": "巧技", "type": 1, "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=", "ext": {"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果", "tnmb", "seven", "bilibili", "1905"], "header": {"User-Agent": "okhttp/4.9.1"}}},
+    {"name": "巧技二", "type": 1, "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=", "ext": {"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果", "tnmb", "seven", "bilibili", "1905", "NetFilx"], "header": {"User-Agent": "okhttp/4.9.1"}}}
   ]
 }
